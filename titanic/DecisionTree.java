@@ -88,19 +88,18 @@ public class DecisionTree {
       reader.readNext();
       while ((arr = reader.readNext()) != null) {
         ArrayList<Integer> tmp = new ArrayList<Integer>();
-        tmp.add(0);
         for (int i = 0; i < arr.length; i ++) {
           // not using passengerid name, cabin, ticket as feature
-          if (i == 0 || i == 2  || i == 7 || i == 9)
+          if (i == 0 || i == 3  || i == 8 || i == 10)
             continue;
-          if (i == 3) {
+          if (i == 4) {
             if (arr[i].equals("female"))
               tmp.add(1);
             else
               tmp.add(0);
             continue;
           }
-          if (i == 10) {
+          if (i == 11) {
             if (arr[i].equals("C"))
               tmp.add(0);
             else if (arr[i].equals("S"))
