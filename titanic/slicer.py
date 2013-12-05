@@ -21,9 +21,9 @@ for i in range(0, len(data), len(data)/5):
         break
     for k in range(len(data)):
         if i <= k and k < i + len(data)/5:
-            ftrain.write(data[k])
-        else:
             ftest.write(data[k])
+        else:
+            ftrain.write(data[k])
     j += 1
     ftrain.close()
     ftest.close()
