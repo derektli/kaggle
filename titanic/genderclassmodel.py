@@ -1,8 +1,3 @@
-""" Now the user can read in a file I want to find what make a model which uses the price, class and gender
-Author : AstroDave
-Date : 18th September, 2012
-
-"""
 
 import csv as csv
 import numpy as np
