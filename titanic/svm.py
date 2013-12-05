@@ -73,7 +73,7 @@ shrinking=True, tol=0.001, verbose=False)"""
 #Now also open the a new file so we can write to it call it something
 #descriptive
 
-predictions_file = csv.writer(open("gendermodel.csv", "wb"))
+predictions_file = csv.writer(open("svm.csv", "wb"))
 predictions_file.writerow(["PassengerId", "Survived"])
 x = []
 
