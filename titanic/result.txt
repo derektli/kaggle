@@ -1,0 +1,148 @@
+Only Gender and Age 
+
+kernel = rbf
+
+True Positive:  197.0
+True Negative:  482.0
+False Positive:  68.0
+False Negative:  147.0
+Accuracy:  0.759507829978
+Error rate:  0.240492170022
+Sensitivity:  0.572674418605
+Recall:  0.876363636364
+Precision:  0.743396226415
+F-1 Score:  0.804422229753
+
+kernel = linear
+
+True Positive:  198.0
+True Negative:  485.0
+False Positive:  65.0
+False Negative:  146.0
+Accuracy:  0.763982102908
+Error rate:  0.236017897092
+Sensitivity:  0.575581395349
+Recall:  0.881818181818
+Precision:  0.752851711027
+F-1 Score:  0.812247573534
+
+All
+
+kernel = rbf, gamma = 0.0
+
+True Positive:  204.0
+True Negative:  497.0
+False Positive:  53.0
+False Negative:  140.0
+Accuracy:  0.784116331096
+Error rate:  0.215883668904
+Sensitivity:  0.593023255814
+Recall:  0.903636363636
+Precision:  0.793774319066
+F-1 Score:  0.845150023549
+
+kernel = linear
+
+True Positive:  198.0
+True Negative:  485.0
+False Positive:  65.0
+False Negative:  146.0
+Accuracy:  0.763982102908
+Error rate:  0.236017897092
+Sensitivity:  0.575581395349
+Recall:  0.881818181818
+Precision:  0.752851711027
+F-1 Score:  0.812247573534
+
+kernel = poly 2
+
+True Positive:  205.0
+True Negative:  493.0
+False Positive:  57.0
+False Negative:  139.0
+Accuracy:  0.780760626398
+Error rate:  0.219239373602
+Sensitivity:  0.595930232558
+Recall:  0.896363636364
+Precision:  0.782442748092
+F-1 Score:  0.835537955323
+
+kernel = poly 3
+
+True Positive:  210.0
+True Negative:  471.0
+False Positive:  79.0
+False Negative:  134.0
+Accuracy:  0.761744966443
+Error rate:  0.238255033557
+Sensitivity:  0.610465116279
+Recall:  0.856363636364
+Precision:  0.726643598616
+F-1 Score:  0.786188642352
+
+kernel = rbf, gamma = 0.1
+
+True Positive:  198.0
+True Negative:  503.0
+False Positive:  47.0
+False Negative:  146.0
+Accuracy:  0.784116331096
+Error rate:  0.215883668904
+Sensitivity:  0.575581395349
+Recall:  0.914545454545
+Precision:  0.808163265306
+F-1 Score:  0.858069657742
+
+NearestNeighbours
+
+n = 5 uniform
+
+True Positive:  179.0
+True Negative:  481.0
+False Positive:  69.0
+False Negative:  165.0
+Accuracy:  0.738255033557
+Error rate:  0.261744966443
+Sensitivity:  0.520348837209
+Recall:  0.874545454545
+Precision:  0.721774193548
+F-1 Score:  0.790849553133
+
+n = 5 rev distance
+
+True Positive:  163.0
+True Negative:  492.0
+False Positive:  58.0
+False Negative:  181.0
+Accuracy:  0.732662192394
+Error rate:  0.267337807606
+Sensitivity:  0.473837209302
+Recall:  0.894545454545
+Precision:  0.737556561086
+F-1 Score:  0.808500771239
+
+n = 3 uniform
+
+True Positive:  181.0
+True Negative:  472.0
+False Positive:  78.0
+False Negative:  163.0
+Accuracy:  0.730425055928
+Error rate:  0.269574944072
+Sensitivity:  0.526162790698
+Recall:  0.858181818182
+Precision:  0.698841698842
+F-1 Score:  0.770358614595
+
+n = 3 rev distance
+
+True Positive:  168.0
+True Negative:  491.0
+False Positive:  59.0
+False Negative:  176.0
+Accuracy:  0.737136465324
+Error rate:  0.262863534676
+Sensitivity:  0.488372093023
+Recall:  0.892727272727
+Precision:  0.740088105727
+F-1 Score:  0.809273166975
